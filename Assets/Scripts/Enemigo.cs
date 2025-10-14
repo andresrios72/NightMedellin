@@ -48,11 +48,9 @@ public class Enemigo : MonoBehaviour
                 EstadoIdle();
                 break;
             case Estados.seguir:
-                transform.LookAt(target, Vector3.up);
                 EstadoSeguir();
                 break;
             case Estados.atacar:
-                transform.LookAt(target, Vector3.up);
                 EstadoAtacar();
                 break;
             case Estados.morir:
@@ -70,8 +68,12 @@ public class Enemigo : MonoBehaviour
             case Estados.idle:
                 break;
             case Estados.seguir:
+                //transform.LookAt(target);
+                RotarHaciaJugador();
                 break;
             case Estados.atacar:
+                //transform.LookAt(target);
+                RotarHaciaJugador();
                 break;
             case Estados.morir:
                 vivo = false;
@@ -80,6 +82,17 @@ public class Enemigo : MonoBehaviour
                 break;
         }
         estado = nuevoEstado;
+    }
+
+    void RotarHaciaJugador()
+    {
+        if (target == null) return;
+
+        Vector3 direccion = target.position - transform.position;
+        direccion.y = 0f;
+
+        Quaternion rotacionDeseada = Quaternion.LookRotation(direccion);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotacionDeseada, 5f * Time.deltaTime);
     }
 
     public virtual void EstadoIdle()
