@@ -24,8 +24,8 @@ public class EnemigoSandwich : Enemigo
     override public void EstadoSeguir()
     {
         base.EstadoSeguir();
-        //if (animaciones != null) animaciones.SetFloat("velocidad", 1f);
-        //if (animaciones != null) animaciones.SetBool("atacando", false);
+        if (animaciones != null) animaciones.SetFloat("velocidad", 1f);
+        if (animaciones != null) animaciones.SetBool("atacando", false);
         agente.SetDestination(target.position);
     }
 
@@ -33,7 +33,6 @@ public class EnemigoSandwich : Enemigo
     {
         base.EstadoAtacar();
         if (animaciones != null) animaciones.SetBool("atacando", true);
-        transform.LookAt(target);
         agente.SetDestination(target.position);
     }
 
