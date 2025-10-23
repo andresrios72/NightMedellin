@@ -31,8 +31,12 @@ public class Enemigo : MonoBehaviour
 
     public void Awake()
     {
-        if(autoseleccionarTarget) target = GameObject.FindGameObjectWithTag("Player").transform;
         StartCoroutine(CalcularDistancia());
+    }
+
+    private void Start()
+    {
+        if (autoseleccionarTarget) target = Personaje.singleton.transform;
     }
 
     private void LateUpdate()
@@ -105,7 +109,7 @@ public class Enemigo : MonoBehaviour
         if (distancia > distanciaEscapar)
             CambiarEstado(Estados.idle);
 
-        if (distancia < distanciaAtacar)
+        if (distancia < distanciaAtacar)  
             CambiarEstado(Estados.atacar);
     }
     public virtual void EstadoAtacar()

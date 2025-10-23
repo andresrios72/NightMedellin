@@ -6,6 +6,7 @@ public class EnemigoSandwich : Enemigo
 {
     private NavMeshAgent agente;
     public Animator animaciones;
+    public float damageAmount = 3f;
 
     private void Awake()
     {
@@ -46,6 +47,6 @@ public class EnemigoSandwich : Enemigo
 
     public void Atacar()
     {
-
+        Personaje.singleton.vida.CausarDanio(damageAmount);
     }
 }
