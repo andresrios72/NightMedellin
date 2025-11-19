@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 1
-  size: {x: 792.40076, y: 64.683876, z: 799.1532}
+  size: {x: 792.40076, y: 64.68388, z: 799.1532}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -2187,7 +2187,7 @@ Transform:
   m_GameObject: {fileID: 96865344}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 271.58893, y: 36.453823, z: 261.83392}
+  m_LocalPosition: {x: 271.58893, y: 36.453827, z: 261.83392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38470,7 +38470,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 2.35
+    m_NearPlane: 2.8
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
