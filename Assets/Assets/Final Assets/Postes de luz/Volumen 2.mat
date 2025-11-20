@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Volumen
+  m_Name: Volumen 2
   m_Shader: {fileID: -6465566751694194690, guid: f2d6790c48acaad418c55fabeef99c96, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -73,8 +73,8 @@ Material:
     - _DecalMeshViewBias: 0
     - _DrawOrder: 0
     - _DstBlend: 1
-    - _EdgesFade: 0.22
-    - _Opacity: 1.41
+    - _EdgesFade: 0.08
+    - _Opacity: 4.79
     - _QueueControl: 1
     - _QueueOffset: 0
     - _SrcBlend: 5
@@ -84,6 +84,6 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.8204432, g: 0.9716981, b: 0.9469022, a: 0}
+    - _Color: {r: 0.8962264, g: 0.7936149, b: 0.29169634, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
