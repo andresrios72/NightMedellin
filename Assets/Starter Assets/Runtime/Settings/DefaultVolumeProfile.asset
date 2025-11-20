@@ -517,7 +517,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 236
+    m_Value: 263
   baseHeight:
     m_OverrideState: 1
     m_Value: 122.17
@@ -532,28 +532,28 @@ MonoBehaviour:
     m_Value: -4.09
   density:
     m_OverrideState: 1
-    m_Value: 0.418
+    m_Value: 0.317
   attenuationDistance:
     m_OverrideState: 1
     m_Value: 128
   enableAPVContribution:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
   APVContributionWeight:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   enableMainLightContribution:
     m_OverrideState: 1
     m_Value: 1
   anisotropy:
     m_OverrideState: 1
-    m_Value: -0.29
+    m_Value: -0.52
   scattering:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.186
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.34509802, g: 0.7478604, b: 1, a: 1}
   enableAdditionalLightsContribution:
     m_OverrideState: 1
     m_Value: 0
