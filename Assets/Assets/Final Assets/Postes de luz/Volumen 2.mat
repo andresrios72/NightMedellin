@@ -74,7 +74,7 @@ Material:
     - _DrawOrder: 0
     - _DstBlend: 1
     - _EdgesFade: 0.08
-    - _Opacity: 4.79
+    - _Opacity: 3.69
     - _QueueControl: 1
     - _QueueOffset: 0
     - _SrcBlend: 5
