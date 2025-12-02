@@ -42,7 +42,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -53,7 +53,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 15
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -100,7 +100,192 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: idle_sanduche(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface51
+      parentName: idle_sanduche(Clone)
+      position: {x: -0.00090388727, y: 0.9645942, z: 0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface58
+      parentName: model:polySurface51
+      position: {x: 0.000000018643037, y: 0.18065023, z: 0.03294644}
+      rotation: {x: 0.9603967, y: -0, z: 0.003968379, w: 0.2786082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform2
+      parentName: model:polySurface58
+      position: {x: 0.00090386864, y: -1.1452444, z: -0.21874735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface61
+      parentName: model:polySurface51
+      position: {x: -0.9465833, y: -0.0007936541, z: 0.11845463}
+      rotation: {x: -0.090491414, y: 0.004524569, z: -0.29613343, w: 0.9508395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform5
+      parentName: model:polySurface61
+      position: {x: 0.9474872, y: -0.96380055, z: -0.30425555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface62
+      parentName: model:polySurface51
+      position: {x: -0.3544033, y: -0.7892767, z: -0.01608902}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform7
+      parentName: model:polySurface62
+      position: {x: 0.3553072, y: -0.17531748, z: -0.16971189}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface63
+      parentName: model:polySurface51
+      position: {x: 0.3178216, y: -0.7892767, z: -0.016089004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform4
+      parentName: model:polySurface63
+      position: {x: -0.3169177, y: -0.17531747, z: -0.1697119}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface64
+      parentName: model:polySurface51
+      position: {x: 0.9465833, y: -0.00079340383, z: 0.11845456}
+      rotation: {x: -0.09051426, y: -0.0045257127, z: 0.29567048, w: 0.9509814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform1
+      parentName: model:polySurface64
+      position: {x: -0.94567937, y: -0.9638007, z: -0.30425546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface59
+      parentName: idle_sanduche(Clone)
+      position: {x: 0.011663532, y: 1.1109654, z: -0.007983792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface65
+      parentName: model:polySurface59
+      position: {x: -0, y: -0.0224272, z: 0.07720688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform6
+      parentName: model:polySurface65
+      position: {x: -0.011663532, y: -1.0885382, z: -0.06922309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface66
+      parentName: model:polySurface59
+      position: {x: -0.0125674, y: 0.034279075, z: -0.058283146}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform3
+      parentName: model:polySurface66
+      position: {x: 0.00090386864, y: -1.1452445, z: 0.06626694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface62
+      parentName: idle_sanduche(Clone)
+      position: {x: -0.00090386864, y: 0.9645942, z: 0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface67
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform14
+      parentName: model:polySurface67
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface68
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform12
+      parentName: model:polySurface68
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface70
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform9
+      parentName: model:polySurface70
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface71
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform11
+      parentName: model:polySurface71
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface72
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform13
+      parentName: model:polySurface72
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface73
+      parentName: model:polySurface62
+      position: {x: 0.8194071, y: 0.05280056, z: -0.1858009}
+      rotation: {x: -0.264232, y: 0.32643422, z: 0.09557379, w: 0.9024898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform10
+      parentName: model:polySurface73
+      position: {x: -0.8185032, y: -1.0106955, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:transform8
+      parentName: model:polySurface62
+      position: {x: 0.00090386864, y: -0.9645942, z: -0.1858009}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:polySurface67
+      parentName: idle_sanduche(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:joint3
+      parentName: idle_sanduche(Clone)
+      position: {x: 0.000037361697, y: 1.082842, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:joint1
+      parentName: model:joint3
+      position: {x: 0.7600806, y: 0.04834415, z: 0.06965285}
+      rotation: {x: 0, y: 0, z: 0.18785523, w: 0.98219675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:joint2
+      parentName: model:joint3
+      position: {x: 0.31297433, y: -0.7421963, z: 0.073735416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:joint5
+      parentName: model:joint3
+      position: {x: -0.31304836, y: -0.7421965, z: 0.073735416}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model:joint4
+      parentName: model:joint3
+      position: {x: -0.7601548, y: 0.04834401, z: 0.06965285}
+      rotation: {x: 0.98278344, y: -0.1847612, z: -1.05409594e-17, w: -6.42867e-17}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -108,16 +293,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 15
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
