@@ -22,27 +22,30 @@ public class EnemigoTrash : Enemigo
     override public void EstadoIdle()
     {
         base.EstadoIdle();
-        if (animaciones != null) animaciones.SetFloat("velocidad", 1f);
-        if (animaciones != null) animaciones.SetBool("atacando", false);
-        agente.SetDestination(checkPoints[indiceCP].position);
-        if ((checkPoints[indiceCP].position - transform.position).sqrMagnitude < distanciaCP2)
+        if (animaciones != null) animaciones.SetFloat("Velocidad", 1f);
+        if (animaciones != null) animaciones.SetBool("Atacando", false);
+        if(checkPoints.Length > 0)
         {
-            indiceCP = (indiceCP + 1) % checkPoints.Length;
+            agente.SetDestination(checkPoints[indiceCP].position);
+            if ((checkPoints[indiceCP].position - transform.position).sqrMagnitude < distanciaCP2)
+            {
+                indiceCP = (indiceCP + 1) % checkPoints.Length;
+            }
         }
     }
 
     override public void EstadoSeguir()
     {
         base.EstadoSeguir();
-        if (animaciones != null) animaciones.SetFloat("velocidad", 1f);
-        if (animaciones != null) animaciones.SetBool("atacando", false);
+        if (animaciones != null) animaciones.SetFloat("Velocidad", 1f);
+        if (animaciones != null) animaciones.SetBool("Atacando", false);
         agente.SetDestination(target.position);
     }
 
     override public void EstadoAtacar()
     {
         base.EstadoAtacar();
-        if (animaciones != null) animaciones.SetBool("atacando", true);
+        if (animaciones != null) animaciones.SetBool("Atacando", true);
         agente.SetDestination(target.position);
     }
 
@@ -50,7 +53,7 @@ public class EnemigoTrash : Enemigo
     override public void EstadoMorir()
     {
         base.EstadoMorir();
-        if (animaciones != null) animaciones.SetBool("vivo", false);
+        if (animaciones != null) animaciones.SetBool("Vivo", false);
         agente.enabled = false;
     }
 
