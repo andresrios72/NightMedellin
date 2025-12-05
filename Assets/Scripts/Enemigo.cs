@@ -27,7 +27,7 @@ public class Enemigo : MonoBehaviour
     public Transform target;
     public float distancia;
 
-    public bool vivo = true;
+    public bool Vivo = true;
 
     public void Awake()
     {
@@ -80,7 +80,7 @@ public class Enemigo : MonoBehaviour
                 RotarHaciaJugador();
                 break;
             case Estados.morir:
-                vivo = false;
+                Vivo = false;
                 break;
             default:
                 break;
@@ -126,7 +126,7 @@ public class Enemigo : MonoBehaviour
 
     IEnumerator CalcularDistancia()
     {
-        while (vivo)
+        while (Vivo)
         {
             yield return new WaitForSeconds(0.3f);
             if (target != null) 
