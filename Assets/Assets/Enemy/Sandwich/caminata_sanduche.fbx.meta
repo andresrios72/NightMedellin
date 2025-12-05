@@ -3,11 +3,31 @@ guid: bb15a1963535ff9488ad38f1604ff8da
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pan_rig_CORTESA
+    second: {fileID: 2100000, guid: 6b40c9829353db24d9ebb4bf40df0654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pan_rig_pan
+    second: {fileID: 2100000, guid: 290816e54e1667e43a55cfab6e1ca56b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pan_rig_pan_tracero
+    second: {fileID: 2100000, guid: 1f3851d2b4fe01d4784ca1f2554d97fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pan_rig_queso2
+    second: {fileID: 2100000, guid: 586f7cc3b4ab39d439eadc0cd19ad508, type: 2}
   materials:
-    materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 0
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
@@ -88,7 +108,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.19999999
+    globalScale: 20
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
