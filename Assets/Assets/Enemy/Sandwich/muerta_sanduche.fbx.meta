@@ -28,7 +28,7 @@ ModelImporter:
     materialImportMode: 1
     materialName: 1
     materialSearch: 0
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -42,14 +42,43 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -100,7 +129,192 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: muerta_sanduche(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface51
+      parentName: muerta_sanduche(Clone)
+      position: {x: -0.001205183, y: 1.2861255, z: 0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface58
+      parentName: pan_rig:polySurface51
+      position: {x: 0.000000024857384, y: 0.24086697, z: 0.043928586}
+      rotation: {x: 0.9603967, y: -0, z: 0.00396838, w: 0.27860817}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform2
+      parentName: pan_rig:polySurface58
+      position: {x: 0.0012051582, y: -1.5269926, z: -0.29166314}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface61
+      parentName: pan_rig:polySurface51
+      position: {x: -1.2621111, y: -0.0010582055, z: 0.15793951}
+      rotation: {x: -0.09049141, y: 0.004524569, z: -0.29613346, w: 0.9508395}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform5
+      parentName: pan_rig:polySurface61
+      position: {x: 1.2633163, y: -1.2850674, z: -0.40567404}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface62
+      parentName: pan_rig:polySurface51
+      position: {x: -0.47253773, y: -1.052369, z: -0.021452028}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform7
+      parentName: pan_rig:polySurface62
+      position: {x: 0.47374293, y: -0.23375665, z: -0.2262825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface63
+      parentName: pan_rig:polySurface51
+      position: {x: 0.4237621, y: -1.052369, z: -0.021452004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform4
+      parentName: pan_rig:polySurface63
+      position: {x: -0.4225569, y: -0.23375662, z: -0.22628254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface64
+      parentName: pan_rig:polySurface51
+      position: {x: 1.2621111, y: -0.0010578717, z: 0.15793942}
+      rotation: {x: -0.09051426, y: -0.0045257127, z: 0.29567048, w: 0.9509814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform1
+      parentName: pan_rig:polySurface64
+      position: {x: -1.2609059, y: -1.2850677, z: -0.40567395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface59
+      parentName: muerta_sanduche(Clone)
+      position: {x: 0.015551375, y: 1.4812872, z: -0.010645055}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface65
+      parentName: pan_rig:polySurface59
+      position: {x: -0, y: -0.029902933, z: 0.10294251}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform6
+      parentName: pan_rig:polySurface65
+      position: {x: -0.015551375, y: -1.4513843, z: -0.09229745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface66
+      parentName: pan_rig:polySurface59
+      position: {x: -0.016756533, y: 0.045705434, z: -0.07771086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform3
+      parentName: pan_rig:polySurface66
+      position: {x: 0.0012051582, y: -1.5269927, z: 0.088355914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface62
+      parentName: muerta_sanduche(Clone)
+      position: {x: -0.0012051582, y: 1.2861255, z: 0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface67
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform14
+      parentName: pan_rig:polySurface67
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface68
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform12
+      parentName: pan_rig:polySurface68
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface70
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform9
+      parentName: pan_rig:polySurface70
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface71
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform11
+      parentName: pan_rig:polySurface71
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface72
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform13
+      parentName: pan_rig:polySurface72
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface73
+      parentName: pan_rig:polySurface62
+      position: {x: 1.0925428, y: 0.070400745, z: -0.24773453}
+      rotation: {x: -0.264232, y: 0.32643422, z: 0.09557379, w: 0.9024898}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform10
+      parentName: pan_rig:polySurface73
+      position: {x: -1.0913376, y: -1.3475939, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:transform8
+      parentName: pan_rig:polySurface62
+      position: {x: 0.0012051582, y: -1.2861255, z: -0.24773453}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:polySurface67
+      parentName: muerta_sanduche(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:joint3
+      parentName: muerta_sanduche(Clone)
+      position: {x: 0.000049815597, y: 1.4437894, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:joint1
+      parentName: pan_rig:joint3
+      position: {x: 1.0134407, y: 0, z: 0.09287046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:joint2
+      parentName: pan_rig:joint3
+      position: {x: 0.4172991, y: -0.98959506, z: 0.09831389}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:joint5
+      parentName: pan_rig:joint3
+      position: {x: -0.4173978, y: -0.98959535, z: 0.09831389}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pan_rig:joint4
+      parentName: pan_rig:joint3
+      position: {x: -1.0135397, y: 0.064458676, z: 0.09287046}
+      rotation: {x: 1, y: 0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -111,13 +325,13 @@ ModelImporter:
     globalScale: 20
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
