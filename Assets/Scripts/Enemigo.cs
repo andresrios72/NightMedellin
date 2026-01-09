@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
+
 
 
 #if UNITY_EDITOR
@@ -121,8 +123,17 @@ public class Enemigo : MonoBehaviour
     {
         if (distancia > distanciaSeguir) 
             CambiarEstado(Estados.morir);
+
+        GetComponent<Collider>().enabled = false;
+        StopAllCoroutines();
+        Destroy(gameObject, 5f);
+
     }
 
+    public void Morir()
+    {
+        CambiarEstado(Estados.morir);
+    }
 
     IEnumerator CalcularDistancia()
     {

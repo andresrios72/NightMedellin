@@ -1,8 +1,11 @@
+using StarterAssets;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Personaje : MonoBehaviour
 {
     public static Personaje singleton;
+    //public Animator animaciones;
 
     public Vida vida;
 
@@ -17,4 +20,15 @@ public class Personaje : MonoBehaviour
             DestroyImmediate(gameObject);
         }
     }
+
+    public void Morir()
+    {
+        Animator anim = GetComponent<Animator>();
+        anim.SetTrigger("Death");
+
+        GetComponent<ThirdPersonController>().enabled = false;
+        GetComponent<PlayerInput>().enabled = false;
+    }
+
+
 }

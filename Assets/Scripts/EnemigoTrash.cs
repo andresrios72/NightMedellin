@@ -6,7 +6,7 @@ public class EnemigoTrash : Enemigo
 {
     private NavMeshAgent agente;
     public Animator animaciones;
-    public float damageAmount = 4f;
+    public int damageAmount = 10;
     public Transform[] checkPoints;    
     private int indiceCP;
     public float distanciaMinimaCP = 1f;
@@ -57,8 +57,14 @@ public class EnemigoTrash : Enemigo
         agente.enabled = false;
     }
 
-    public void Atacar()
+    public void AplicarDanio()
     {
-        Personaje.singleton.vida.CausarDanio(damageAmount);
+        if (target == null) return;
+
+        Vida vidaObjetivo = target.GetComponent<Vida>();
+        if (vidaObjetivo == null) return;
+
+        Debug.Log("DAÑO APLICADO POR ANIMACION");
+        vidaObjetivo.CausarDanio(damageAmount);
     }
 }

@@ -6,7 +6,7 @@ public class EnemigoSandwich : Enemigo
 {
     private NavMeshAgent agente;
     public Animator animaciones;
-    public float damageAmount = 3f;
+    public int damageAmount = 10;
 
     private void Awake()
     {
@@ -45,8 +45,14 @@ public class EnemigoSandwich : Enemigo
         agente.enabled = false;
     }
 
-    public void Atacar()
+    public void AplicarDanio()
     {
-        Personaje.singleton.vida.CausarDanio(damageAmount);
+        if (target == null) return;
+
+        Vida vidaObjetivo = target.GetComponent<Vida>();
+        if (vidaObjetivo == null) return;
+
+        //Debug.Log("DAÑO APLICADO POR ANIMACION");
+        vidaObjetivo.CausarDanio(damageAmount);
     }
 }
