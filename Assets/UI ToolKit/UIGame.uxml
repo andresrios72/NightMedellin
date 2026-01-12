@@ -1,0 +1,44 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20ToolKit/USS/Slyles.uss?fileID=7433441132597879392&amp;guid=0791ce266ba78234ba66b2823350c95a&amp;type=3#Slyles" />
+    <ui:VisualElement name="CharacterInfo" data-source="project://database/Assets/UI%20ToolKit/ScriptableObjects/Escobita.asset?fileID=11400000&amp;guid=80460fc83ae1ed2448f87bdc4106a52f&amp;type=2#Escobita" class="container" style="flex-grow: 1; position: absolute; height: 148px; width: 427px; top: 30px; left: 30px; justify-content: center;">
+        <ui:VisualElement name="CharacterImage" style="flex-grow: 1; position: absolute; height: 109px; width: 111px; background-color: rgb(243, 230, 230); top: 20px; left: 19px;">
+            <Bindings>
+                <ui:DataBinding property="style.backgroundImage" data-source-path="playerPortrait" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:VisualElement>
+        <ui:Label text="Label" name="CharacterName" style="color: rgb(253, 249, 249); font-size: 54px; margin-left: 133px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="playerName" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+        <ui:Label text="Label" name="CharacterClass" style="color: rgb(253, 249, 249); font-size: 31px; margin-left: 133px;">
+            <Bindings>
+                <ui:DataBinding property="text" data-source-path="playerClass" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:Label>
+    </ui:VisualElement>
+    <ui:VisualElement name="HeartsInfo" class="container" style="flex-grow: 1; position: absolute; height: 99px; width: 316px; justify-content: center; right: 40px; flex-direction: row; align-items: center; padding-right: 20px; padding-left: 20px; top: 40px;">
+        <ui:VisualElement name="HeartImage" class="heart" />
+        <ui:VisualElement name="HeartImage" class="heart" />
+        <ui:VisualElement name="HeartImage" class="heart" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Pause" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.55); align-items: center; justify-content: center; visibility: hidden; position: absolute; height: 1065px; width: 1894px; top: 7px; left: 9px;">
+        <ui:VisualElement name="PauseMenu" class="container" style="flex-grow: 0; flex-shrink: 0; height: 265px; width: 560px; justify-content: center; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
+            <ui:Label text="Pause Menu" style="color: rgb(253, 247, 247); font-size: 60px; -unity-text-align: upper-center;" />
+            <ui:Button text="Resume Game" name="ResumeButton" style="font-size: 50px; margin-top: 21px; height: 137px; -unity-text-align: middle-right; width: 500px;">
+                <ui:VisualElement name="ResumeImage" style="flex-grow: 1; position: absolute; height: 109px; width: 111px; background-color: rgb(243, 230, 230); top: 20px; left: 19px; background-image: url(&quot;project://database/Assets/Assets/Images/Avatar.jpg?fileID=2800000&amp;guid=ae7e74da49c199f4e92863c6d1813df3&amp;type=3#Avatar&quot;);">
+                    <Bindings>
+                        <ui:DataBinding property="style.backgroundImage" data-source-path="playerPortrait" binding-mode="ToTarget" />
+                    </Bindings>
+                </ui:VisualElement>
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Pause&#10; Game" name="PauseButton" style="font-size: 50px; margin-top: 21px; height: 141px; -unity-text-align: middle-right; width: 296px; position: relative; top: 11px; left: 476px;">
+        <ui:VisualElement name="PauseImage" tooltip="Pause game" style="flex-grow: 1; position: absolute; height: 109px; width: 111px; background-color: rgb(243, 230, 230); top: 20px; left: 19px; background-image: url(&quot;project://database/Assets/Assets/Images/Avatar.jpg?fileID=2800000&amp;guid=ae7e74da49c199f4e92863c6d1813df3&amp;type=3#Avatar&quot;);">
+            <Bindings>
+                <ui:DataBinding property="style.backgroundImage" data-source-path="playerPortrait" binding-mode="ToTarget" />
+            </Bindings>
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

@@ -64,7 +64,7 @@ public class EnemigoTrash : Enemigo
         Vida vidaObjetivo = target.GetComponent<Vida>();
         if (vidaObjetivo == null) return;
 
-        Debug.Log("DAÑO APLICADO POR ANIMACION");
+        //Debug.Log("DAÑO APLICADO POR ANIMACION");
         vidaObjetivo.CausarDanio(damageAmount);
     }
 }

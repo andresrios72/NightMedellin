@@ -7,11 +7,16 @@ public class EnemigoSandwich : Enemigo
     private NavMeshAgent agente;
     public Animator animaciones;
     public int damageAmount = 10;
+    public Transform[] checkPoints;
+    private int indiceCP;
+    public float distanciaMinimaCP = 1f;
+    private float distanciaCP2;
 
     private void Awake()
     {
         base.Awake();
         agente = GetComponent<NavMeshAgent>();
+        distanciaCP2 = distanciaMinimaCP * distanciaMinimaCP;
     }
 
     override public void EstadoIdle()
@@ -19,7 +24,15 @@ public class EnemigoSandwich : Enemigo
         base.EstadoIdle();
         if (animaciones != null) animaciones.SetFloat("Velocidad", 0f);
         if (animaciones != null) animaciones.SetBool("Atacando", false);
-        agente.SetDestination(transform.position);
+        //agente.SetDestination(transform.position);
+        if (checkPoints.Length > 0)
+        {
+            agente.SetDestination(checkPoints[indiceCP].position);
+            if ((checkPoints[indiceCP].position - transform.position).sqrMagnitude < distanciaCP2)
+            {
+                indiceCP = (indiceCP + 1) % checkPoints.Length;
+            }
+        }
     }
 
     override public void EstadoSeguir()
