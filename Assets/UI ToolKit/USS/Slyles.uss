@@ -1,0 +1,19 @@
+.container {
+    background-color: rgb(23, 123, 53);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 80px;
+    height: 130px;
+}
+
+.heart {
+    flex-grow: 1;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(243, 230, 230, 0);
+    background-image: url("project://database/Assets/Assets/Images/HeartRed.png?fileID=2800000&guid=e11b44501f246c04195102aaa9a1e3a2&type=3#HeartRed");
+    -unity-background-scale-mode: scale-to-fit;
+}

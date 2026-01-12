@@ -14,11 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.533023
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 404.35318
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,9 +48,93 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7424578421115967349, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -5655953836138760826, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1936435754388201639, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -1337254334240549054, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 206168404692604248, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.97
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
       propertyPath: m_Name
       value: Caldero
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1857727161190417608, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2365002487927541531, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3067250916641780112, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4144006133440632531, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842649481191952282, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.77439785
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339481904918349231, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -42.33081
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339481904918349231, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.297455
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339481904918349231, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.84326
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620145048434695660, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.828751e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620145048434695660, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620145048434695660, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062520532926399987, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990706454844121195, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 42.41076
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990706454844121195, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -87.467476
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990706454844121195, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -88.74079
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -64,7 +148,16 @@ PrefabInstance:
       addedObject: {fileID: 2104220038140066915}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
       insertIndex: -1
+      addedObject: {fileID: -1237385644489951216}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 5362139316341597457}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2326485145870911219}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2421032754475790347}
   m_SourcePrefab: {fileID: 100100000, guid: 606fcd743bc4a044d86f118c56a66eff, type: 3}
 --- !u!1 &6761846876839900147 stripped
 GameObject:
@@ -115,6 +208,27 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &-1237385644489951216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761846876839900147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6036377, y: 3.3744764, z: 2.6742249}
+  m_Center: {x: 0.0057678223, y: 1.5762868, z: -0.16288757}
 --- !u!114 &5362139316341597457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,8 +248,51 @@ MonoBehaviour:
   autoseleccionarTarget: 1
   target: {fileID: 0}
   distancia: 0
-  vivo: 1
+  Vivo: 1
   animaciones: {fileID: 9061810534364243839}
-  damageAmount: 4
+  damageAmount: 10
   checkPoints: []
   distanciaMinimaCP: 1
+--- !u!114 &2326485145870911219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761846876839900147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69277e2fbb73c3e4f8e39042bccd52ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaInicial: 100
+  vidaActual: 0
+  EventoMorir:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5362139316341597457}
+        m_TargetAssemblyTypeName: Enemigo, Assembly-CSharp
+        m_MethodName: Morir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2421032754475790347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6761846876839900147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be01e1c6cd6f29c48832b08120615099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: {fileID: 2326485145870911219}
+  enemigo: {fileID: 5362139316341597457}
