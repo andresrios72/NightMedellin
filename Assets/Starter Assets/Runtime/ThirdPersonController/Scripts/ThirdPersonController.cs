@@ -403,5 +403,6 @@ namespace StarterAssets
         {
             _rotateOnMove = rotateOnMove;
         }
+                
     }
 }

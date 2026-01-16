@@ -39,4 +39,10 @@ public class Vida : MonoBehaviour
     {
         return estaMuerto;
     }
+
+    public void ReiniciarVida()
+    {
+        vidaActual = vidaInicial;
+        estaMuerto = false;
+    }
 }
