@@ -21,5 +21,8 @@
         <ui:VisualElement name="ButtonSprint" class="touchscreen-button">
             <ui:VisualElement name="ButtonImage" class="button-icon" style="flex-grow: 1;" />
         </ui:VisualElement>
+        <ui:VisualElement name="ButtonShoot" class="touchscreen-button" style="bottom: 137px; right: 219px;">
+            <ui:VisualElement name="ButtonImage" class="button-icon" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Starter%20Assets/Runtime/Mobile/UI/Images/Arma.png?fileID=21300000&amp;guid=0d934c7809484be42bb54c052f6f006f&amp;type=3#Arma&quot;);" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

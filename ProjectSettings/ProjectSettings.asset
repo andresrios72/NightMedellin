@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Hangar6
   productName: NightMedellin
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -144,6 +144,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
   - {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  - {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -165,6 +166,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
+    Android: com.Hangar6.medellinnocturna
     Standalone: com.DefaultCompany.3D-Project
   buildNumber:
     Standalone: 0
@@ -263,7 +265,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
@@ -288,7 +290,14 @@ PlayerSettings:
   AndroidAppBundleSizeToValidate: 150
   AndroidReportGooglePlayAppDependencies: 1
   androidSymbolsSizeThreshold: 800
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: ae7e74da49c199f4e92863c6d1813df3, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: Android
     m_Icons:
@@ -770,7 +779,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: NightMedellin
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -778,7 +787,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: NightMedellin
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: NightMedellin
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
