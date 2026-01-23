@@ -25,4 +25,10 @@ public class VirtualInput : MonoBehaviour
     {
         StarterAssetsInputs.SprintInput(virtualSprintState);
     }
+
+    public void VirtualShootInput(bool virtualShootState)
+    {
+        StarterAssetsInputs.ShootInput(virtualShootState);
+    }
+
 }
